@@ -1,0 +1,134 @@
+body {
+    background-color: rgba(51, 51, 51, 0.932);
+
+} 
+
+.Header {
+    background-color: rgb(255, 0, 0);
+    
+    height: 85px;
+    width: 300px;
+
+    position: absolute;
+    left:0px;
+    top: 0%;    
+
+    background-image: linear-gradient(rgb(22, 22, 22), rgba(214, 214, 209, 0.404));
+} 
+
+.MainTitleText {
+    position: absolute;     
+    right: 90px;
+    Top: -5px;
+    left: 92.5px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+
+}
+
+.HeaderLogoText {
+    font-size: 30px;
+    color: white;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    position: absolute;
+    left: 44.45%;
+    top: 110px;
+    
+  }
+
+  li {
+    display: inline-block;
+    width:  94px;
+
+    border-radius: 8px;
+    
+  }
+
+  .whitebox {
+    position:relative;
+    text-decoration: none;
+    display: block;
+    height: 28px;
+    width: 94px;
+    background-color: hsl(0, 0%, 100%);
+    font-size: 25px;  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    left: 0px;
+
+    border-radius: 10px;
+  }
+
+  li a:hover {
+    background-color: #55555500;
+    color: rgb(255, 255, 255);
+
+  }
+
+  
+  .MiddleMain {
+    position: absolute;
+    background-color: rgba(185, 179, 179, 0.418);
+
+    left: 0;
+    top: 135px;
+
+    align-self:center;
+
+    height: 820px;
+    width: 1920px;
+  }
+
+  .MiddleMainText {
+    font-size: 40px;
+
+    right: 47.77%;
+    top: 20px;
+    color: white; 
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    position: absolute;
+
+  }
+
+  .MiddleMainText1 {
+    font-size: 40px;
+
+    right: 44%;
+    top: 30px;
+    color: white; 
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    position: absolute;
+
+  }
+
+
+
+  .grad {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
+    bottom: 0px;
+    left: 0;
+    width: 99.7%;
+    height: 70px;
+    position: absolute;
+    font-size: 15px;
+  }
+
